@@ -1,0 +1,98 @@
+@media only screen and(min-width:200px) and (max-width:575px){
+    
+}
+
+@media (max-width: 1400px) {
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+}
+
+@media (max-width: 1260px) {
+   
+    
+}
+@media (max-width: 500px) {
+    .hero-banner{
+        padding: 50px;
+    }
+    h6{
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    h1{
+        margin-top: 30px;
+        font-size: 36px;
+    }
+
+    
+    .container{
+        padding-left: 30px ;
+        padding-right: 30px ;
+    }
+    .ftr{
+    
+        align-items: center;
+        text-align: center;
+    }
+    .social-link{
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 10px;
+    }
+
+}
+
+    
+
+@media (max-width: 990px) {
+    .hero-banner{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+}
+@media (max-width: 769px) {
+
+    h1{
+        font-size: 2rem;
+        font-size: 700;
+        
+        
+    }
+    .social-link{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 10px;
+    }
+    
+   
+
+    h2{
+        font-size: 34px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        
+        
+    }
+
+    h3{
+        font-size: 20px;
+    }
+    
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1340px;
+    }
+}
